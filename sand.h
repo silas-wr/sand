@@ -1,4 +1,5 @@
 #include <stdio.h>
+void greet();
 void gline(int, int, char[]);
 void boxread();
 void boxcreate();
