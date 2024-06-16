@@ -32,7 +32,7 @@ void gline(int max, int min, char s[])
 
 }
 
-void login(u, p, s)
+void login(char u[], char p[], char s[])
 {
 	printf("Username: ");
 	gline(MAXUSER, MINUSER, u);
