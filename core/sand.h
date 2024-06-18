@@ -7,6 +7,10 @@
 #define SESSION 10
 #define EOL '\n'
 
+extern char user[MAXUSER+1];
+extern char pass[MAXPASS+1];
+extern char session[SESSION+1];
+
 void greet(void);
 void login(char[], char[], char[]);
 void gline(int, int, char[]);
