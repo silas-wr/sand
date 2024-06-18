@@ -2,9 +2,9 @@
 
 main()
 {
-	char user[MAXUSER+1];
-	char pass[MAXPASS+1];
-	char session[SESSION+1];
+	extern char user[MAXUSER+1];
+	extern char pass[MAXPASS+1];
+	extern char session[SESSION+1];
 
 	greet();
 	login(user, pass, session);
