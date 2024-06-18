@@ -5,6 +5,9 @@ on:
 
 jobs:
   build_project:
+    permissions:
+      contents: write
+      
     name: build c files
     runs-on: ubuntu-latest
     steps:
