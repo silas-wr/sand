@@ -2,6 +2,10 @@
 
 main()
 {
+	char user[MAXUSER];
+	char pass[MAXPASS];
+	char session[SESSION];
+	
 	greet();
 	login(user, pass, session);
         return 0;
