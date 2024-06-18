@@ -14,6 +14,7 @@ jobs:
 
     - name: Commit build
       run: |
+          git add .
           git config --global user.name 'Silas Wrinker'
           git config --global user.email 'alcosojr79@gmail.com'
           git commit -m "Built project"
