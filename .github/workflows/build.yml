@@ -12,8 +12,11 @@ jobs:
     - name: Build our Project
       run: bash compile.sh
 
-    - name: Commit report
+    - name: Commit build
       run: |
+          git config --global user.name 'Silas Wrinker'
+          git config --global user.email 'alcosojr79@gmail.com'
           git commit -m "Built project"
           git push
+
 
